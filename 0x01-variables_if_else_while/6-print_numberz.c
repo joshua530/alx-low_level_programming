@@ -14,6 +14,6 @@ int main(void)
 
 	for (; i < 58; ++i)
 		putchar(i);
-	putchar(13);
+	putchar(10);
 	return (0);
 }
