@@ -3,24 +3,22 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+ * main - does number comparisons
+ *
+ * Description: compares the number to 5, 6 and 0 and outputs the
+ * appropriate result
+ *
+ * Return: exit code of the program
+ */
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	int last;	
-//	if (n < 0)
-//	{
-//		n = -(n);
-//		last = n % 10;
-//		last = -(last);
-//	}
-//	else
-//	{
-//		last = n % 10;
-//	}
+	int last;
+
 	last = n % 10;
 
 	printf("Last digit of %d is %d ", n, last);
