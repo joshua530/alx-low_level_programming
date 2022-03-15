@@ -21,7 +21,20 @@ void print_to_98(int a)
 			if (i == a)
 				printf("%d", i);
 			else
-				printf(",%3d", i);
+			{
+				if (i <= -100)
+					printf(",%5d", i);
+				else if (i <= -10)
+					printf(",%4d", i);
+				else if (i <= 0)
+					printf(",%3d", i);
+				else if (i <= 9)
+					printf(",%2d", i);
+				else if (i <= 99)
+					printf(",%3d", i);
+				else
+					printf(",%4d", i);
+			}
 		}
 	}
 	else
