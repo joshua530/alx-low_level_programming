@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_sign: checks num sign
+ * print_sign - checks num sign
  *
  * @i: number to check
  *
