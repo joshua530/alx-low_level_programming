@@ -11,10 +11,10 @@
  *
  * Return: void
  */
-void print_last_digit(int i)
+int print_last_digit(int i)
 {
 	int num = i % 10;
 	num = abs(num);
 	putchar(num + '0');
-	putchar('\n');
+	return num;
 }
