@@ -13,7 +13,8 @@
  */
 void print_last_digit(int i)
 {
-	int num = abs(i % 10);
+	int num = i % 10;
+	num = abs(num);
 	putchar(num + '0');
 	putchar('\n');
 }
