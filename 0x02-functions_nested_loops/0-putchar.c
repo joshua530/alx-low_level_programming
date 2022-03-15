@@ -14,5 +14,6 @@ int main(void)
 
 	for (; i < 9; ++i)
 		_putchar(string[i]);
+	_putchar('\n');
 	return (0);
 }
