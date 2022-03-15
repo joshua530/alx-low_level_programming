@@ -3,7 +3,7 @@
 #include <stdbool.h>
 
 /**
- * _islower - checks whether character is alphabet
+ * _isalpha - checks whether character is alphabet
  *
  * @c: character to check
  *
@@ -13,5 +13,5 @@
  */
 bool _isalpha(char c)
 {
-  return (isalpha(c));
+	return (isalpha(c));
 }
