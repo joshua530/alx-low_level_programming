@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar.c"
 
 /**
  * print_alphabet - prints the alphabet
@@ -12,7 +13,7 @@ void print_alphabet()
   int i = 97;
 
   for (; i < 123; ++i)
-    putchar(i);
-  putchar('\n');
+    _putchar(i);
+  _putchar('\n');
   return (0);
 }
