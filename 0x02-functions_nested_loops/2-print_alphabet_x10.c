@@ -15,8 +15,11 @@ void print_alphabet_x10(void)
 	for (; j < 10; ++j)
 	{
 		for (; i < 123; ++i)
+		{
 			_putchar(i);
+		}
 		_putchar('\n');
 		j = 0;
+		i = 97;
 	}
 }
