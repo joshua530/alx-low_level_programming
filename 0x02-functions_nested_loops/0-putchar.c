@@ -13,7 +13,7 @@ int main(void)
 	int i = 0;
 
 	for (; i < 9; ++i)
-		putchar(string[i]);
-	putchar(13);
+		_putchar(string[i]);
+	_putchar(13);
 	return (0);
 }
