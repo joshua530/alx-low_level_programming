@@ -10,4 +10,4 @@ bool _islower(char);
 
 bool _isalpha(char c);
 
-char print_sign(int i);
+int print_sign(int i);

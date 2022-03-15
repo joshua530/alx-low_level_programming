@@ -7,14 +7,23 @@
  *
  * Description: checks num sign
  *
- * Return: 0, - or +
+ * Return: 0, 1 or -1
  */
-char print_sign(int i)
+int print_sign(int i)
 {
-  if (i < 0)
-    return ('-');
-  else if (i > 0)
-    return ('+');
-  else
-    return ('0');
+	if (i < 0)
+	{
+		_putchar('-');
+		return (1);
+	}
+	else if (i > 0)
+	{
+		_putchar('+');
+		return (1);
+	}
+	else
+	{
+		_putchar('0');
+		return (0);
+	}
 }
