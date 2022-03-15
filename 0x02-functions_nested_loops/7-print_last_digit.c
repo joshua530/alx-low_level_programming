@@ -13,6 +13,7 @@
  */
 void print_last_digit(int i)
 {
-	int num = (abs(i % 10));
-	printf("%i\n", num);
+	int num = abs(i % 10);
+	putchar(num + '0');
+	putchar('\n');
 }
