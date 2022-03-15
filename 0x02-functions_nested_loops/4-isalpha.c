@@ -11,7 +11,7 @@
  *
  * Return: true or false
  */
-bool _islower(char c)
+bool _isalpha(char c)
 {
   return (isalpha(c));
 }

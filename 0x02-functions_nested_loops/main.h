@@ -8,4 +8,4 @@ void print_alphabet_x10(void);
 
 bool _islower(char);
 
-bool _islower(char c);
+bool _isalpha(char c);
