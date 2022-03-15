@@ -1,1 +1,1 @@
-void _putchar(const char *);
+void _putchar(const char *, int len);
