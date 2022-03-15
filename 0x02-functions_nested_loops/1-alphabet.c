@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * main - prints the alphabet
+ * print_alphabet - prints the alphabet
  *
  * Description: prints out all lowercase letters
  *
  * Return: exit code of the function
  */
-int main(void)
+void print_alphabet()
 {
-  print_alphabet();
+  for (int i = 97; i < 123; ++i)
+    putchar(i);
+  putchar('\n');
   return (0);
 }
