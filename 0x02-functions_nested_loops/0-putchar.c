@@ -14,6 +14,5 @@ int main(void)
 
 	for (; i < 9; ++i)
 		_putchar(string[i]);
-	_putchar(13);
 	return (0);
 }
