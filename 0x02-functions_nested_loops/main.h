@@ -9,3 +9,5 @@ void print_alphabet_x10(void);
 bool _islower(char);
 
 bool _isalpha(char c);
+
+char print_sign(int i);
