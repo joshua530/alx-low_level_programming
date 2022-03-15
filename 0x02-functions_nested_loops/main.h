@@ -11,3 +11,5 @@ bool _islower(char);
 bool _isalpha(char c);
 
 int print_sign(int i);
+
+int _abs(int i);
