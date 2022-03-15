@@ -10,6 +10,8 @@
 int main(void)
 {
 	char string[9] = "_putchar";
-	_putchar(string, 9);
+	for (int i = 0; i < 9; ++i)
+		putchar(string[i]);
+	putchar(13);
 	return (0);
 }

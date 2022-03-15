@@ -10,9 +10,7 @@
  *
  * Return: the exit code of the program
  */
-void _putchar(const char *str, int len)
+void _putchar(char c)
 {
-	for (int i = 0; i < len; ++i)
-		putchar(str[i]);
-	putchar(13);
+	putchar(c);
 }
