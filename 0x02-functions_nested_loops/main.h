@@ -13,3 +13,5 @@ bool _isalpha(char c);
 int print_sign(int i);
 
 int _abs(int i);
+
+void print_last_digit(int i)
