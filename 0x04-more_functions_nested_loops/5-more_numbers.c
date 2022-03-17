@@ -26,6 +26,8 @@ void more_numbers(void)
 				_putchar(49);
 			_putchar(current);
 		}
+		current = 48;
+		counter = 0;
 		_putchar('\n');
 	}
 }
