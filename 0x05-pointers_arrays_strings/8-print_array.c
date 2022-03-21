@@ -61,12 +61,14 @@ void print_array(int *a, int n)
 		tmp = a[i];
 		if (i == 0)
 		{
-			printnum(tmp);
+			printf("%d", a[i]);
 		}
 		else
 		{
-			printf(",");
+			printnum(tmp);
 		}
+		if (i != n - 1)
+			printf(",");
 	}
 	printf("\n");
 }
