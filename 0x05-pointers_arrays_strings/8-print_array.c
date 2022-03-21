@@ -27,7 +27,13 @@ void print_array(int *a, int n)
 		else
 		{
 			printf(",");
-			if (tmp >= 1000)
+			if (tmp >= 1000000)
+				printf("%8d", tmp);
+			else if (tmp >= 100000)
+				printf("%7d", tmp);
+			else if (tmp >= 10000)
+				printf("%6d", tmp);
+			else if (tmp >= 1000)
 				printf("%5d", tmp);
 			else if (tmp >= 100)
 				printf("%4d", tmp);
@@ -43,6 +49,10 @@ void print_array(int *a, int n)
 				printf("%5d", tmp);
 			else if (tmp >= -9999)
 				printf("%6d", tmp);
+			else if (tmp >= -99999)
+				printf("%7d", tmp);
+			else if (tmp >= -999999)
+				printf("%8d", tmp);
 		}
 	}
 	printf("\n");
