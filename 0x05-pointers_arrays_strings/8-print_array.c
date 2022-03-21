@@ -12,7 +12,9 @@
  */
 void printnum(int n)
 {
-	if (n >= 1000000)
+	if (n >= 10000000)
+		printf("%8d", n);
+	else if (n >= 1000000)
 		printf("%8d", n);
 	else if (n >= 100000)
 		printf("%7d", n);
@@ -38,6 +40,8 @@ void printnum(int n)
 		printf("%7d", n);
 	else if (n >= -999999)
 		printf("%8d", n);
+	else if (n >= -9999999)
+		printf("%9d", n);
 }
 
 /**
