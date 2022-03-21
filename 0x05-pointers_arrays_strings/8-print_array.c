@@ -61,11 +61,10 @@ void print_array(int *a, int n)
 		tmp = a[i];
 		if (i == 0)
 		{
-			printf("%d", a[i]);
+			printnum(tmp);
 		}
 		else
 		{
-			printnum(tmp);
 			printf(",");
 		}
 	}
