@@ -6,6 +6,7 @@
  *
  * @dest: the string that will be concatenated to
  * @src: the string from which the bytes will be extracted
+ * @n: the number of bytes to be used
  *
  * Description: the source string does not need to have a null
  * terminator if it exceeds n bytes
