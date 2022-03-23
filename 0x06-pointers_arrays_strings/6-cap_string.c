@@ -26,6 +26,7 @@ char *cap_string(char *str)
 	{
 		/* we are at the beginning of a word */
 		if (isalpha(str[i]) &&
+				str[i] != '\0' &&
 				(i > 0) &&										 /* prevent segmentation error */
 				exists(separators, str[i - 1]) /* preceded by a punctuation character */
 		)
