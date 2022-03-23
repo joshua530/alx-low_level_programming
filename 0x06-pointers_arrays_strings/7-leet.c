@@ -19,8 +19,7 @@ char *leet(char *str)
 	int len, str_pos, to_convert_pos;
 	char to_convert[] = "aAeEoOtTlL";
 	int codes[] = {4, 3, 0, 7, 1};
-	int char_index;
-	int code_index;
+	int char_index, code_index;
 	int len_to_convert;
 
 	len = strlen(str);
