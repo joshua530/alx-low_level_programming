@@ -15,7 +15,7 @@ void print_char(char *s, int current)
 	{
 		return;
 	}
-	print_char(s, current + 1);
+	print_char(++s, current + 1);
 	_putchar(*s);
 	if (current == 0)
 	{
