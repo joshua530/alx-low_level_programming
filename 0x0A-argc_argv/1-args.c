@@ -6,7 +6,7 @@
  * @argc: argument count
  * @argv: array containing arguments passed to program
  *
- * Description: prints the name of the program
+ * Description: prints number of arguments
  * Return: 0
  */
 int main(int argc, __attribute__((unused)) char **argv)
