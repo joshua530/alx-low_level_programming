@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 
 /**
  * create_array - allocates memory for characters
@@ -17,6 +16,9 @@ char *create_array(unsigned int size, char c)
 {
 	char *mem;
 	unsigned int i;
+
+	if (size == 0)
+		return NULL;
 
 	mem = malloc(size * sizeof(c));
 
