@@ -34,7 +34,7 @@ char *str_concat(char *s1, char *s2)
 		strcat(final_str, s2);
 
 	/* there was nothing to concatenate */
-	if (sizeof(final_str == (sizeof(char))))
+	if (sizeof(final_str) == (sizeof(char)))
 		return (NULL);
 	return (final_str);
 }
