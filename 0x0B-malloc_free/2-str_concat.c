@@ -22,7 +22,7 @@ char *str_concat(char *s1, char *s2)
 	{
 		size = sizeof(s1) * sizeof(char);
 	}
-	if (s2 != NULL)
+	if (s2 != NULL && sizeof(s2) > 1)
 	{
 		size += sizeof(s2) * sizeof(char);
 	}
