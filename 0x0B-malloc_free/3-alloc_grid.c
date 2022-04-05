@@ -19,8 +19,6 @@ int **alloc_grid(int width, int height)
 
 	if (width < 1 || height < 1)
 	{
-		free(grid);
-		free(grid_row);
 		return (NULL);
 	}
 
