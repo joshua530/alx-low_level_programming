@@ -15,8 +15,8 @@ char *str_concat(char *s1, char *s2)
 	char *final_str;
 	int size;
 
-	// assume strings are empty first, allocate space for null
-	// terminator only
+	/* assume strings are empty first, allocate space for null */
+	/* terminator only  */
 	size = sizeof(char);
 	if (s1 != NULL)
 	{
@@ -33,8 +33,8 @@ char *str_concat(char *s1, char *s2)
 	if (s2 != NULL)
 		strcat(final_str, s2);
 
-	// there was nothing to concatenate
+	/* there was nothing to concatenate */
 	if (sizeof(final_str == (sizeof(char))))
-		return NULL;
-	return final_str;
+		return (NULL);
+	return (final_str);
 }
