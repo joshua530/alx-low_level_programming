@@ -18,6 +18,9 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	char *concatenated;
 
 	total_len = 0;
+	if (s1 == NULL && s2 == NULL)
+		return (NULL);
+
 	if (s1 == NULL)
 		s1 = "";
 	if (s2 == NULL)
@@ -35,7 +38,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (concatenated == NULL)
 		return (NULL);
 
-	strcat(concatenated, s1);
+	strcpy(concatenated, s1);
 	strncat(concatenated, s2, n);
 
 	return (concatenated);
