@@ -26,7 +26,6 @@ int *array_range(int min, int max)
 	for (i = 0; i < len; ++i)
 	{
 		mem[i] = min++;
-		printf("%d\n", mem[i]);
 	}
 
 	return (mem);
