@@ -3,6 +3,6 @@
 #ifndef FUNC_MACRO
 #define FUNC_MACRO
 
-#define ABS(x) (abs(x))
+#define ABS(x) (((x) < 0) ? -(x) : (x))
 
 #endif
