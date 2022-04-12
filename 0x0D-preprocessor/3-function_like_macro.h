@@ -1,5 +1,3 @@
-#include <stdlib.h>
-
 #ifndef FUNC_MACRO
 #define FUNC_MACRO
 
