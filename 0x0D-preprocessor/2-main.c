@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int i;
+	long unsigned int i;
 
 	for (i = 0; i < sizeof(__FILE__); ++i)
 	{
