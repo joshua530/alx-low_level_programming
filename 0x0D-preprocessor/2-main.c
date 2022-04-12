@@ -1,4 +1,4 @@
-#include "_putchar.c"
+#include <stdio.h>
 
 /**
  * main - prints out name of current file
@@ -7,13 +7,7 @@
  */
 int main(void)
 {
-	long unsigned int i;
-
-	for (i = 0; i < sizeof(__FILE__); ++i)
-	{
-		_putchar(__FILE__[i]);
-	}
-	_putchar('\n');
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
