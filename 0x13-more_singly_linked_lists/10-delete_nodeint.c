@@ -16,6 +16,14 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	while (current != NULL)
 	{
+		if (index == 0) /* delete first node */
+		{
+			(*head) = current->next;
+			current->next = NULL;
+			free(current);
+			return (1);
+		}
+
 		if (idx == (index - 1))
 		{
 			if (current->next == NULL) /* no node to delete */
