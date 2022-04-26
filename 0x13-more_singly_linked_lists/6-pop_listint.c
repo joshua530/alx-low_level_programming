@@ -20,8 +20,8 @@ int pop_listint(listint_t **head)
 		free((*head));
 		(*head) = tmp;
 
-		return data;
+		return (data);
 	}
 
-	return 0;
+	return (0);
 }
