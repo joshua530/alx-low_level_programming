@@ -11,7 +11,7 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	int len, i, j;
+	int len, i, j, pow, k;
 	unsigned int total = 0;
 
 	if (b == NULL || strlen(b) == 0)
@@ -31,7 +31,16 @@ unsigned int binary_to_uint(const char *b)
 		}
 		if (b[j] == '1')
 		{
-			total += pow(2, i);
+			pow = 1;
+			if (i >= 1)
+			{
+				/* calculate power of two */
+				for (k = 0; k < i; ++k)
+				{
+					pow *= 2;
+				}
+			}
+			total += pow;
 		}
 	}
 
