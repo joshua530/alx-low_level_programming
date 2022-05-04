@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <limits.h>
 
 /**
  * read_textfile - reads a text file and prints it to the POSIX standard output
@@ -18,6 +19,11 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	char *buf;
 
 	if (filename == NULL || letters == 0)
+	{
+		return (0);
+	}
+
+	if (letters > SSIZE_MAX)
 	{
 		return (0);
 	}
