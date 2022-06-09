@@ -27,7 +27,6 @@ dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 		return (*h);
 	}
 
-	/* ensure we don't go past the bounds of the list */
 	while (iter != NULL && i <= idx)
 	{
 		if (i == idx)
