@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * dlitint_len - finds the length of a linked list
+ * dlistint_len - finds the length of a linked list
  *
  * @h: head node
  *

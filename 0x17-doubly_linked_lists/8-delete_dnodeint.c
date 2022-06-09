@@ -2,11 +2,10 @@
 #include <stdlib.h>
 
 /**
- * insert_dnodeint_at_index - deletes node at a given index
+ * delete_dnodeint_at_index - deletes node at a given index
  *
- * @h: head node
- * @idx: index of node to delete
- * @n: value of new node
+ * @head: head node
+ * @index: index of node to delete
  *
  * Return: 1 if deletion succeeded, -1 if deletion failed
  */
