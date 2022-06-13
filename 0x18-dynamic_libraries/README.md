@@ -1,1 +1,1 @@
-# this program deals with dynamic libraries
+dynamic libraries directory
